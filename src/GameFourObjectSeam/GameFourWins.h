@@ -2,8 +2,9 @@
 #include <iosfwd>
 
 struct GameFourWins {
-	void play(std::ostream& os) ;
-    GameFourWins(IDie &theDie):die{theDie}{}
+  void play(std::ostream& os);
+  GameFourWins(IDie &theDie)
+    :die{theDie}{}
 private:
-	IDie &die;
+  IDie &die;
 };

@@ -2,7 +2,7 @@
 #include <iosfwd>
 
 struct GameFourWins {
-	void play(std::ostream& os) ;
+  void play(std::ostream& os) ;
 private:
-	Die die{};
+  Die die{};
 };

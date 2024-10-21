@@ -2,7 +2,7 @@
 #define DIE_H_
 #include "IDie.h"
 struct Die : IDie {
-	 int roll() override;
+   int roll() override;
 };
 
 #endif /* DIE_H_ */
