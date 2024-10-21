@@ -8,4 +8,4 @@ Examine the accompanying class in [Controller.h](Controller.h) and [Controller.c
 * Can you refactor away the loops by corresponding standard algorithms?
 * What other improvements can you think of?
 
-Note: This exercise was derived from a concrete code example and changed to protect the guilty.
+Note: This exercise was derived from a concrete code example and simplified.
